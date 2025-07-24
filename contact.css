@@ -1,0 +1,51 @@
+body {
+    direction: rtl;
+    text-align: right;
+    background-image: url(do.png);
+    background-repeat: no-repeat;
+  }
+
+  .contact-container {
+    
+    max-width: 500px;
+    margin: 20px auto; 
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  label {
+    display: block;
+    margin: 15px 0 5px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  textarea{
+    max-height: 50px;
+  }
+
+  button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+      }
+
+  button:hover {
+    background-color: #0056b3;
+  }

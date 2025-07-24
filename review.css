@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    padding: 20px;
+    background-image: url(do.png);
+  }
+
+  .rf, .rl {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+  }
+
+  input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    margin-top: 20px;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+  }
+
+  .review {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+
+  .stars {
+    color: gold;
+    font-size: 20px;
+  }

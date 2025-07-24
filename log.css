@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    
+  }
+  
+#log{
+    text-align: center  ;
+    color: black;
+    border-style:ridge;
+    /* background-color: rgb(68, 24, 24); */
+    position: fixed;
+    left: 25%;
+    bottom: 40%;
+    
+}
+body{
+    background: url("do.png " );
+    background-repeat:no-repeat ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    margin: 0;
+    height: 500px;
+    background-position: center ;
+    background-size: cover;
+
+    
+}
+#UserName {
+
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#Password{
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#submit{
+    padding: 5px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-weight: bold;
+    
+  
+}
